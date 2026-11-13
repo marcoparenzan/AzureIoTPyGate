@@ -1,0 +1,16 @@
+<Project>
+  <!-- Copyright (c) 2026 Marco Parenzan. MIT License. -->
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Authors>Marco Parenzan</Authors>
+    <Copyright>Copyright (c) 2026 Marco Parenzan</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PyGateArtifactsRoot>D:\Dev\BuildArtifacts\AzureIoTPyGate\</PyGateArtifactsRoot>
+    <BaseOutputPath>$(PyGateArtifactsRoot)bin\$(MSBuildProjectName)\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(PyGateArtifactsRoot)obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+</Project>

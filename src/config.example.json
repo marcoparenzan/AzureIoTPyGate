@@ -1,0 +1,15 @@
+{
+  "idScope": "<DPS-id-scope>",
+  "globalEndpoint": "global.azure-devices-provisioning.net",
+  "registrationId": "<existing-device-CN>",
+  "cert": "cert.pem",
+  "key": "key.pem",
+  "stateFile": "state.json",
+  "payloadDir": "<absolute-payload-directory>",
+  "workerIpcRetain": 5,
+  "logLevel": "info",
+  "logDir": "D:/Dev/BuildArtifacts/AzureIoTPyGate/logs/device01",
+  "injectFault": false,
+  "allowDpsRegistration": false,
+  "artifactBaseUrl": null
+}

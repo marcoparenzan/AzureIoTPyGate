@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+*.pem
+*.pfx
+*.key
+state.json
+agent-state.json
+*.log
+TestResults/
+__pycache__/
+*.pyc
+.ralfai/
